@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>JQuery Exo4 Part4</title>
+</head>
+<body> 
+    <h1 class="text-danger text-center">## Exercice 4 Part 4</h1>
+    <h2 class="text-center">
+        Créer un formulaire demandant nom, prénom, date de naissance, lieu de naissance, emploi et société. Le nom et le prénom doivent commencer par une majuscule, peuvent être composés et ne pas comporter de chiffre. La date de naissance doit être sous le format jj/mm/aaaa. Au clic sur un bouton, les informations apparaissent dans une modale.
+    </h2>
+    <div>
+        <p id="errorLastName"></p>
+        <label for="lastName">Nom:</label>
+        <input id="lastName" type="text" name="lastName">
+    </div>
+    <div>
+        <p id="errorFirstName"></p>
+        <label for="firstName">Prénom:</label>
+        <input id="firstName" type="text" name="firstName">
+    </div>
+    <div>
+        <p id="errorbirthDate"></p>
+        <label for="birthDate">Date de naissance:</label>
+        <input id="birthDate" type="text" name="birthDate">
+    </div>
+    <div>
+        <p id="errorbirthLocation"></p>
+        <label for="birthLocation">Lieu de naissance:</label>
+        <input id="birthLocation" type="text" name="birthLocation">
+    </div>
+    <div>
+        <p id="errorJob"></p>
+        <label for="job">Emploi:</label>
+        <input id="job" type="text" name="job">
+    </div>
+    <div>
+        <p id="errorCompany"></p>
+        <label for="">Société:</label>
+        <input id="company" type="text" name="company">
+    </div>
+    <button class="btn btn-info">Générer</button>
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
